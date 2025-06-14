@@ -1,0 +1,43 @@
+VARIABLE_ID;VARIABLE_NAME;VARIABLE_DESCRIPTION;VARIABLE_DATA_TYPE;VARIABLE_REQUIRED
+FREQ_ID;Frequency of observation ID;Time interval at which observations occur over a given time period.;String;True
+FREQ_NAME;Frequency of observation name;Time interval at which observations occur over a given time period.;String;True
+REF_AREA_ID;Reference area ID;Country or geographic area to which the measured statistical phenomenon relates.;String;True
+REF_AREA_NAME;Reference area name;Country or geographic area to which the measured statistical phenomenon relates.;String;True
+INDICATOR_ID;Statistical indicator ID;Data element that represents statistical data for a specified time, place, and other characteristics, and is corrected for at least one dimension (usually size) to allow for meaningful comparisons.;String;True
+INDICATOR_NAME;Statistical indicator name;Data element that represents statistical data for a specified time, place, and other characteristics, and is corrected for at least one dimension (usually size) to allow for meaningful comparisons.;String;True
+SEX_ID;Sex ID;State of being male or female.;String;True
+SEX_NAME;Sex name;State of being male or female.;String;True
+AGE_ID;Age ID;Length of time that an entity has lived or existed.;String;True
+AGE_NAME;Age name;Length of time that an entity has lived or existed.;String;True
+URBANISATION_ID;Degree of urbanisation ID;Refers to Total, Urban, or Rural location.;String;True
+URBANISATION_NAME;Degree of urbanisation name;Refers to Total, Urban, or Rural location.;String;True
+UNIT_MEASURE_ID;Unit of measure ID;Unit in which the data values are expressed.;String;True
+UNIT_MEASURE_NAME;Unit of measure name;Unit in which the data values are expressed.;String;True
+COMP_BREAKDOWN_1_ID;Custom Dimension 1 ID;;String;True
+COMP_BREAKDOWN_1_NAME;Custom Dimension 1 name;;String;True
+COMP_BREAKDOWN_2_ID;Custom Dimension 2 ID;;String;True
+COMP_BREAKDOWN_2_NAME;Custom Dimension 2 name;;String;True
+COMP_BREAKDOWN_3_ID;Custom Dimension 3 ID;;String;True
+COMP_BREAKDOWN_3_NAME;Custom Dimension 3 name;;String;True
+TIME_PERIOD;Time period;Timespan or point in time to which the observation actually refers.;ObservationalTimePeriod;True
+OBS_VALUE;Observation value;Value of a particular variable.;Float;False
+AGG_METHOD_ID;Aggregation method ID;;String;False
+AGG_METHOD_NAME;Aggregation method name;;String;False
+DECIMALS_ID;Decimals ID;Number of digits of an observation to the right of a decimal point.;String;False
+DECIMALS_NAME;Decimals name;Number of digits of an observation to the right of a decimal point.;String;False
+DATABASE_ID_ID;Identifier of database ID;;String;True
+DATABASE_ID_NAME;Identifier of database ID;;String;True
+COMMENT_TS;Title complement, detailed description of the series;;;False
+UNIT_MULT_ID;Unit multiplier ID;Exponent in base 10 specified so that multiplying the observation numeric values by 10^UNIT_MULT gives a value expressed in the unit of measure.;;True
+UNIT_MULT_NAME;Unit multiplier name;Exponent in base 10 specified so that multiplying the observation numeric values by 10^UNIT_MULT gives a value expressed in the unit of measure.;;True
+DATA_SOURCE_ID;Data source ID;Location or service from where data or metadata can be obtained.;String;False
+DATA_SOURCE_NAME;Data source name;Location or service from where data or metadata can be obtained.;String;False
+UNIT_TYPE_ID;Base type of unit ID;;String;True
+UNIT_TYPE_NAME;Base type of unit name;;String;True
+TIME_FORMAT_ID;Time format ID;Technical format for the representation of time.;;False
+TIME_FORMAT_NAME;Time format name;Technical format for the representation of time.;;False
+COMMENT_OBS;Comments to the observation value;;;False
+OBS_STATUS_ID;Observation status ID;Information on the quality of a value or an unusual or missing value.;String;False
+OBS_STATUS_NAME;Observation status name;Information on the quality of a value or an unusual or missing value.;String;False
+OBS_CONF_ID;Observation confidentiality ID;;String;False
+OBS_CONF_NAME;Observation confidentiality name;;String;False
